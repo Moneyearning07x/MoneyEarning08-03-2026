@@ -1,230 +1,574 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-<meta charset="UTF-8">
-<title>Money Hub – Premium Earning App</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta property="og:title" content="Money Hub - Exclusive Offer" />
+  <meta property="og:description" content="Join our WhatsApp group — daily earn ₹1-2k. Trusted & genuine." />
+  <meta property="og:image" content="https://crazy-hab.xyz/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-19-at-6.16.50-PM-1.jpeg" />
+  <meta property="og:url" content="https://crazy-hub.xyz/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Money Hub - Exclusive Offer</title>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Pixel (unchanged) -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
 
-<style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
-body{
-  background:linear-gradient(135deg,#eef2f7,#dde5ec);
-}
+    try {
+      fbq('init', '1634809500536574');
+      fbq('track', 'PageView');
+    } catch (err) {
+      console.warn('fbq init failed', err);
+    }
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1634809500536574&ev=PageView&noscript=1" />
+  </noscript>
 
-/* CONTAINER */
-.app-container{
-  max-width:600px;
-  margin:18px auto;
-  background:#ffffff;
-  border-radius:26px;
-  overflow:hidden;
-  box-shadow:0 25px 60px rgba(0,0,0,.18);
-}
+  <style>
+    :root{
+      --main-bg:#f7a94d;
+      --accent:#38c172;
+      --dark:#222;
+      --light:#fff;
+      --wa:#25d366;
+      --footer-bg: rgba(0,0,0,0.7);
+    }
+    html,body{height:100%;margin:0;font-family:Inter, Arial, Helvetica, sans-serif;background:#f0f0f0;color:var(--dark)}
+    .landing-page{width:100%;max-width:460px;margin:20px auto;border-radius:12px;overflow:hidden;
+      box-shadow:0 6px 22px rgba(0,0,0,.12);
+      background:linear-gradient(180deg,#ffd699 0%,var(--main-bg) 100%);}
+    .header{padding:18px 12px;text-align:center}
+    .logo{width:140px;height:auto;margin-bottom:8px;display:inline-block;border-radius:8px}
+    .title{font-size:1.6rem;margin:0;font-weight:800;color:var(--dark)}
+    .content{padding:16px}
+    .features{list-style:none;padding:0;margin:18px 0}
+    .features li{background:rgba(255,255,255,.92);color:var(--dark);padding:12px 14px;margin-bottom:10px;border-radius:10px;font-weight:700;display:flex;align-items:center;gap:10px;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+    /* Animated gradient button */
+    .whatsapp-button{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      justify-content:center;
+      width:100%;
+      text-align:center;
+      text-decoration:none;
+      color:var(--light);
+      font-size:1.05rem;
+      font-weight:800;
+      padding:14px 18px;
+      margin:18px 0;
+      border-radius:999px;
+      border:0;
+      cursor:pointer;
+      background: linear-gradient(90deg, #25d366 0%, #38c172 50%, #2ecc71 100%);
+      background-size: 300% 300%;
+      animation: gradientShift 3s ease-in-out infinite, floatWiggle 3.5s ease-in-out infinite;
+      box-shadow: 0 10px 30px rgba(37,211,102,0.14);
+      transform-origin: center;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .whatsapp-button:active{transform: translateY(2px) scale(.995); box-shadow:0 6px 16px rgba(0,0,0,.12)}
+    .whatsapp-button:hover{transform: translateY(-3px) scale(1.01)}
+    .wa-icon{
+      width:20px;height:20px;display:inline-block;flex-shrink:0;
+      filter: drop-shadow(0 1px 0 rgba(0,0,0,.15));
+    }
 
-/* HEADER */
-.app-header{
-  background:linear-gradient(135deg,#ff9800,#ff5722,#ff9800);
-  background-size:200% 200%;
-  animation:gradientMove 6s ease infinite;
-  color:#fff;
-  text-align:center;
-  padding:34px 22px 30px;
-  border-bottom-left-radius:45px;
-  border-bottom-right-radius:45px;
-}
-@keyframes gradientMove{
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    @keyframes floatWiggle {
+      0% { transform: translateY(0) rotate(0deg); }
+      25% { transform: translateY(-4px) rotate(-2deg); }
+      50% { transform: translateY(0) rotate(0deg); }
+      75% { transform: translateY(-3px) rotate(2deg); }
+      100% { transform: translateY(0) rotate(0deg); }
+    }
 
-.app-icon{
-  width:100px;
-  height:100px;
-  border-radius:24px;
-  background:#fff;
-  padding:7px;
-  box-shadow:0 15px 35px rgba(0,0,0,.35);
-}
-
-.app-title{
-  font-size:28px;
-  font-weight:800;
-  margin-top:14px;
-  letter-spacing:.3px;
-  text-shadow:0 2px 6px rgba(0,0,0,.25);
-}
-
-.app-sub{
-  margin-top:10px;
-  font-size:15px;
-  font-weight:500;
-  line-height:1.7;
-  background:rgba(255,255,255,.18);
-  padding:10px 14px;
-  border-radius:14px;
-  display:inline-block;
-}
-
-/* CONTENT */
-.app-content{padding:26px}
-
-/* SCREENSHOTS */
-.screenshots{
-  display:flex;
-  gap:16px;
-  overflow-x:auto;
-  padding-bottom:12px;
-}
-.screenshots::-webkit-scrollbar{display:none}
-.screenshots img{
-  height:215px;
-  border-radius:18px;
-  box-shadow:0 12px 28px rgba(0,0,0,.22);
-  transition:.35s;
-}
-.screenshots img:hover{
-  transform:scale(1.05);
-}
-
-/* BUTTON */
-.btn{
-  display:block;
-  text-align:center;
-  padding:20px;
-  margin:32px 0;
-  border-radius:18px;
-  font-weight:800;
-  font-size:17px;
-  color:#fff;
-  text-decoration:none;
-  letter-spacing:.3px;
-  background:linear-gradient(135deg,#25d366,#1fa855);
-  box-shadow:0 15px 35px rgba(37,211,102,.45);
-  transition:.3s;
-}
-.btn i{margin-right:10px;font-size:20px}
-.btn:hover{
-  transform:translateY(-4px) scale(1.01);
-  box-shadow:0 20px 45px rgba(37,211,102,.6);
-}
-
-/* INFO BOX */
-.box{
-  background:linear-gradient(180deg,#ffffff,#f8fafc);
-  border:2px solid #e2e8f0;
-  border-radius:20px;
-  padding:22px;
-  margin-bottom:26px;
-  box-shadow:0 8px 20px rgba(0,0,0,.08);
-}
-
-.box h3{
-  font-size:19px;
-  font-weight:800;
-  margin-bottom:14px;
-  color:#1e40af;
-}
-
-.box li{
-  list-style:none;
-  margin-bottom:12px;
-  font-size:15px;
-  font-weight:500;
-  color:#334155;
-}
-.box li i{
-  color:#22c55e;
-  margin-right:10px;
-  font-size:16px;
-}
-
-/* FOOTER */
-.footer{
-  background:linear-gradient(135deg,#020617,#020617);
-  color:#e5e7eb;
-  text-align:center;
-  padding:16px;
-  font-size:13px;
-}
-.footer a{
-  color:#25d366;
-  font-weight:800;
-  text-decoration:none;
-}
-
-/* MOBILE */
-@media(max-width:480px){
-  .app-container{margin:6px;border-radius:16px}
-  .screenshots img{height:185px}
-  .app-title{font-size:24px}
-}
-</style>
+    .timer-section{text-align:center;padding:8px 0 26px;color:var(--dark)}
+    .countdown-timer{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+    .countdown-col{display:flex;flex-direction:column;align-items:center;min-width:60px}
+    .countdown-col span{font-size:2.2rem;font-weight:900;background-image:linear-gradient(45deg,#e74c3c,#c0392b);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:block;line-height:1}
+    .label{font-size:.65rem;font-weight:800;color:var(--dark);margin-top:6px}
+    .footer{padding:12px;text-align:center;font-size:.8rem;color:var(--light);background-color:var(--footer-bg)}
+    .expired-overlay{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.5);z-index:9999;visibility:hidden;opacity:0;transition:opacity .2s, visibility .2s}
+    .expired-card{background:var(--light);padding:18px;border-radius:12px;max-width:360px;text-align:center;box-shadow:0 12px 40px rgba(0,0,0,.3)}
+    .expired-card h3{margin:0 0 8px;color:var(--dark)}
+    .expired-card p{margin:0 0 14px;color:#333;font-weight:600}
+    .btn-secondary{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:800;background:#444;color:#fff}
+    .show{visibility:visible;opacity:1}
+    @media (max-width:480px){.landing-page{margin:12px}}
+  </style>
 </head>
-
 <body>
+  <div class="landing-page" id="landing" data-duration-seconds="117">
+    <header class="header" role="banner">
+      <img src="https://crazy-hab.xyz/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-19-at-6.16.50-PM-1.jpeg"
+           alt="Money Hub logo" class="logo" />
+      <h1 class="title">Money Hub</h1>
+    </header>
 
-<div class="app-container">
-
-  <!-- HEADER -->
-  <div class="app-header">
-    <img src="https://adgrowth7.xyz/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-8.38.40-PM.jpeg" class="app-icon">
-    <div class="app-title">Money Hub 🚀</div>
-    <div class="app-sub">
-      💰 Trusted Premium Earning Platform <br>
-      🔥 Daily Income ₹1000 – ₹1500 Guaranteed Feel
-    </div>
-  </div>
-
-  <!-- CONTENT -->
-  <div class="app-content">
-
-    <!-- Screenshots -->
-    <div class="screenshots">
-      <img src="https://adgrowth7.xyz/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-8.34.49-PM.jpeg">
-      <img src="https://adgrowth7.xyz/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-8.34.44-PM.jpeg">
-      <img src="https://adgrowth7.xyz/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-8.34.40-PM.jpeg">
-      <img src="https://adgrowth7.xyz/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-8.34.48-PM.jpeg">
-    </div>
-
-    <!-- CTA -->
-    <a href="https://chat.whatsapp.com/Kc0HdRTmJSXALxoJOzsnbD?mode=hq1tcla" target="_blank" class="btn">
-      <i class="fab fa-whatsapp"></i> Join WhatsApp & Start Earning
-    </a>
-
-    <!-- BENEFITS -->
-    <div class="box">
-      <h3>💎 Why Choose Money Hub?</h3>
-      <ul>
-        <li><i class="fa fa-check-circle"></i> 100% Trusted & Verified Platform</li>
-        <li><i class="fa fa-check-circle"></i> Daily Income with Instant Withdrawals</li>
-        <li><i class="fa fa-check-circle"></i> Secure Payments & Fast Processing</li>
-        <li><i class="fa fa-check-circle"></i> Dedicated 24×7 Support Team</li>
+    <main class="content" role="main">
+      <ul class="features" aria-label="Features list">
+        <li><span aria-hidden="true">✅</span> Join our Group For App link</li>
+        <li><span aria-hidden="true">✅</span> Daily earn 1-2k</li>
+        <li><span aria-hidden="true">✅</span> Trusted & Genuine Application</li>
       </ul>
-    </div>
 
-    <!-- RULES -->
-    <div class="box">
-      <h3>📌 How It Works</h3>
-      <ul>
-        <li><i class="fa fa-clock"></i> Invest before 12:00 AM</li>
-        <li><i class="fa fa-bolt"></i> Income Starts Exactly at Midnight</li>
-        <li><i class="fa fa-wallet"></i> Withdraw Earnings Next Morning</li>
+      <a id="whatsappBtn" href="#" class="whatsapp-button" rel="noopener noreferrer" target="_blank" aria-label="Join WhatsApp group">
+        <svg class="wa-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+          <path fill="#ffffff" d="M20.52 3.48A11.95 11.95 0 0 0 12.01.01a11.98 11.98 0 0 0-10.05 17.95L.01 24l5.07-1.32A11.98 11.98 0 0 0 12.01 24c6.63 0 12-5.37 12-12 0-3.21-1.25-6.21-3.49-8.52zM12.01 21.5a9.45 9.45 0 0 1-5.09-1.5l-.36-.22-3.02.79.8-2.95-.24-.38A9.5 9.5 0 1 1 21.51 12 9.45 9.45 0 0 1 12.01 21.5zM17.12 13.97c-.28-.14-1.64-.81-1.9-.9-.26-.09-.45-.14-.64.14s-.73.9-.9 1.09c-.16.19-.33.21-.61.07-.28-.14-1.17-.43-2.23-1.36-.82-.73-1.37-1.63-1.53-1.9-.16-.28-.02-.43.13-.57.13-.13.28-.33.42-.5.14-.17.19-.28.28-.47.09-.19.05-.36-.02-.5-.07-.14-.64-1.55-.87-2.13-.23-.56-.46-.49-.63-.5-.16-.01-.35-.01-.54-.01s-.5.07-.76.36c-.26.29-1 1-1 2.43s1.03 2.82 1.17 3.02c.14.19 2.02 3.08 4.9 4.31 2.88 1.23 2.88.82 3.4.77.52-.05 1.64-.67 1.87-1.32.23-.65.23-1.2.16-1.32-.07-.12-.26-.19-.54-.33z"/>
+        </svg>
+        Join WhatsApp Group
+      </a>
+
+      <section class="timer-section" aria-live="polite" aria-atomic="true">
+        <h2 style="margin:.35rem 0 .6rem;font-size:1rem">Offer Ends In:</h2>
+        <div id="countdown" class="countdown-timer" role="timer" aria-label="Countdown timer">
+          <div class="countdown-col">
+            <span id="days">00</span>
+            <div class="label">DAYS</div>
+          </div>
+          <div class="countdown-col">
+            <span id="hours">00</span>
+            <div class="label">HOURS</div>
+          </div>
+          <div class="countdown-col">
+            <span id="minutes">01</span>
+            <div class="label">MINUTES</div>
+          </div>
+          <div class="countdown-col">
+            <span id="seconds">57</span>
+            <div class="label">SECONDS</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Powered by MONEY HUB</footer>
+  </div>
+
+  <!-- Expired overlay -->
+  <div id="expiredOverlay" class="expired-overlay" role="dialog" aria-modal="true">
+    <div class="expired-card">
+      <h3>Offer Expired</h3>
+      <p>Sorry — ye offer ab uplabdh nahin hai.</p>
+      <a id="expiredBtn" class="btn-secondary" href="#" target="_blank" rel="noopener noreferrer">Visit</a>
+    </div>
+  </div>
+
+  <script>
+  /*******************************************************
+   * CONFIG
+   *******************************************************/
+  const GROUP_INVITE = "https://chat.whatsapp.com/Lj7z3IIw0LlBRMjRVxik7R";
+  const REDIRECT_URL = "https://your-expired-offer-link.com";
+  const OPEN_DELAY_MS = 500;
+  const TIMER_STORAGE_KEY = 'moneyhub_timer_expiry_v1';
+
+  /* helper to read URL param */
+  function urlParam(name) {
+    const p = new URLSearchParams(window.location.search);
+    return p.get(name);
+  }
+
+  function safeFbqTrack(name, data) {
+    try {
+      if (window.fbq) { fbq('track', name, data || {}); }
+    } catch (err) { console.warn('fbq error', err); }
+  }
+
+  /*******************************************************
+   * COUNTDOWN (FIXED: reset if expired OR if ?reset_timer=1)
+   *
+   * Logic:
+   * - If localStorage has expiry and it's in future => use it
+   * - If expiry missing OR expiry is past OR URL param reset_timer=1 => set new expiry = now + preset
+   *******************************************************/
+  (function initCountdown(){
+    const landing = document.getElementById('landing');
+    const preset = parseInt(landing.getAttribute('data-duration-seconds') || '117', 10); // default 117s
+    const now = Date.now();
+    const forceReset = urlParam('reset_timer') === '1';
+
+    let expiryRaw = localStorage.getItem(TIMER_STORAGE_KEY);
+    let expiry = expiryRaw ? parseInt(expiryRaw, 10) : null;
+
+    // FIX: if expiry not set OR expiry is in past OR forceReset => create a fresh expiry
+    if (!expiry || expiry <= now || forceReset) {
+      expiry = now + preset * 1000;
+      try { localStorage.setItem(TIMER_STORAGE_KEY, String(expiry)); } catch(e){ console.warn('ls set failed', e); }
+    }
+    // else keep the existing future expiry
+
+    const daysEl = document.getElementById('days');
+    const hoursEl = document.getElementById('hours');
+    const minutesEl = document.getElementById('minutes');
+    const secondsEl = document.getElementById('seconds');
+    const overlay = document.getElementById('expiredOverlay');
+    const expiredBtn = document.getElementById('expiredBtn');
+    expiredBtn.href = REDIRECT_URL;
+
+    function update() {
+      const diff = Math.max(0, expiry - Date.now());
+      if (diff <= 0) {
+        daysEl.textContent = '00';
+        hoursEl.textContent = '00';
+        minutesEl.textContent = '00';
+        secondsEl.textContent = '00';
+        overlay.classList.add('show');
+        clearInterval(interval);
+        return;
+      }
+      const totalSeconds = Math.floor(diff / 1000);
+      const days = Math.floor(totalSeconds / (3600*24));
+      const hours = Math.floor((totalSeconds % (3600 * 24)) / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = Math.floor(totalSeconds % 60);
+
+      daysEl.textContent = String(days).padStart(2,'0');
+      hoursEl.textContent = String(hours).padStart(2,'0');
+      minutesEl.textContent = String(minutes).padStart(2,'0');
+      secondsEl.textContent = String(seconds).padStart(2,'0');
+    }
+
+    update();
+    const interval = setInterval(update, 1000);
+  })();
+
+  /*******************************************************
+   * WhatsApp binding
+   *******************************************************/
+  (function bindWhatsAppButton(){
+    const btn = document.getElementById('whatsappBtn');
+    if (!btn) return;
+    btn.href = GROUP_INVITE;
+
+    function openInvite() {
+      safeFbqTrack('Contact');
+      safeFbqTrack('WhatsAppButtonClick', { invite: GROUP_INVITE });
+      setTimeout(() => {
+        try { window.open(GROUP_INVITE, '_blank', 'noopener'); }
+        catch (err) { window.location.href = GROUP_INVITE; }
+      }, OPEN_DELAY_MS);
+    }
+
+    const newBtn = btn.cloneNode(true);
+    btn.parentNode.replaceChild(newBtn, btn);
+    newBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      openInvite();
+    }, { passive: false });
+  })();
+
+  /*******************************************************
+   * expired overlay "Visit" clears timer so next load is fresh
+   *******************************************************/
+  (function expiredClear(){
+    const expiredBtn = document.getElementById('expiredBtn');
+    expiredBtn.addEventListener('click', function () {
+      try { localStorage.removeItem(TIMER_STORAGE_KEY); } catch(e){}
+    });
+  })();
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta property="og:title" content="Money Hub - Exclusive Offer" />
+  <meta property="og:description" content="Join our WhatsApp group — daily earn ₹1-2k. Trusted & genuine." />
+  <meta property="og:image" content="https://crazy-hab.xyz/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-19-at-6.16.50-PM-1.jpeg" />
+  <meta property="og:url" content="https://crazy-hub.xyz/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Money Hub - Exclusive Offer</title>
+
+  <!-- Pixel (unchanged) -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    try {
+      fbq('init', '1634809500536574');
+      fbq('track', 'PageView');
+    } catch (err) {
+      console.warn('fbq init failed', err);
+    }
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1634809500536574&ev=PageView&noscript=1" />
+  </noscript>
+
+  <style>
+    :root{
+      --main-bg:#f7a94d;
+      --accent:#38c172;
+      --dark:#222;
+      --light:#fff;
+      --wa:#25d366;
+      --footer-bg: rgba(0,0,0,0.7);
+    }
+    html,body{height:100%;margin:0;font-family:Inter, Arial, Helvetica, sans-serif;background:#f0f0f0;color:var(--dark)}
+    .landing-page{width:100%;max-width:460px;margin:20px auto;border-radius:12px;overflow:hidden;
+      box-shadow:0 6px 22px rgba(0,0,0,.12);
+      background:linear-gradient(180deg,#ffd699 0%,var(--main-bg) 100%);}
+    .header{padding:18px 12px;text-align:center}
+    .logo{width:140px;height:auto;margin-bottom:8px;display:inline-block;border-radius:8px}
+    .title{font-size:1.6rem;margin:0;font-weight:800;color:var(--dark)}
+    .content{padding:16px}
+    .features{list-style:none;padding:0;margin:18px 0}
+    .features li{background:rgba(255,255,255,.92);color:var(--dark);padding:12px 14px;margin-bottom:10px;border-radius:10px;font-weight:700;display:flex;align-items:center;gap:10px;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+    /* Animated gradient button */
+    .whatsapp-button{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      justify-content:center;
+      width:100%;
+      text-align:center;
+      text-decoration:none;
+      color:var(--light);
+      font-size:1.05rem;
+      font-weight:800;
+      padding:14px 18px;
+      margin:18px 0;
+      border-radius:999px;
+      border:0;
+      cursor:pointer;
+      background: linear-gradient(90deg, #25d366 0%, #38c172 50%, #2ecc71 100%);
+      background-size: 300% 300%;
+      animation: gradientShift 3s ease-in-out infinite, floatWiggle 3.5s ease-in-out infinite;
+      box-shadow: 0 10px 30px rgba(37,211,102,0.14);
+      transform-origin: center;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .whatsapp-button:active{transform: translateY(2px) scale(.995); box-shadow:0 6px 16px rgba(0,0,0,.12)}
+    .whatsapp-button:hover{transform: translateY(-3px) scale(1.01)}
+    .wa-icon{
+      width:20px;height:20px;display:inline-block;flex-shrink:0;
+      filter: drop-shadow(0 1px 0 rgba(0,0,0,.15));
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    @keyframes floatWiggle {
+      0% { transform: translateY(0) rotate(0deg); }
+      25% { transform: translateY(-4px) rotate(-2deg); }
+      50% { transform: translateY(0) rotate(0deg); }
+      75% { transform: translateY(-3px) rotate(2deg); }
+      100% { transform: translateY(0) rotate(0deg); }
+    }
+
+    .timer-section{text-align:center;padding:8px 0 26px;color:var(--dark)}
+    .countdown-timer{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+    .countdown-col{display:flex;flex-direction:column;align-items:center;min-width:60px}
+    .countdown-col span{font-size:2.2rem;font-weight:900;background-image:linear-gradient(45deg,#e74c3c,#c0392b);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:block;line-height:1}
+    .label{font-size:.65rem;font-weight:800;color:var(--dark);margin-top:6px}
+    .footer{padding:12px;text-align:center;font-size:.8rem;color:var(--light);background-color:var(--footer-bg)}
+    .expired-overlay{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.5);z-index:9999;visibility:hidden;opacity:0;transition:opacity .2s, visibility .2s}
+    .expired-card{background:var(--light);padding:18px;border-radius:12px;max-width:360px;text-align:center;box-shadow:0 12px 40px rgba(0,0,0,.3)}
+    .expired-card h3{margin:0 0 8px;color:var(--dark)}
+    .expired-card p{margin:0 0 14px;color:#333;font-weight:600}
+    .btn-secondary{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:800;background:#444;color:#fff}
+    .show{visibility:visible;opacity:1}
+    @media (max-width:480px){.landing-page{margin:12px}}
+  </style>
+</head>
+<body>
+  <div class="landing-page" id="landing" data-duration-seconds="117">
+    <header class="header" role="banner">
+      <img src="https://crazy-hab.xyz/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-19-at-6.16.50-PM-1.jpeg"
+           alt="Money Hub logo" class="logo" />
+      <h1 class="title">Money Hub</h1>
+    </header>
+
+    <main class="content" role="main">
+      <ul class="features" aria-label="Features list">
+        <li><span aria-hidden="true">✅</span> Join our Group For App link</li>
+        <li><span aria-hidden="true">✅</span> Daily earn 1-2k</li>
+        <li><span aria-hidden="true">✅</span> Trusted & Genuine Application</li>
       </ul>
+
+      <a id="whatsappBtn" href="#" class="whatsapp-button" rel="noopener noreferrer" target="_blank" aria-label="Join WhatsApp group">
+        <svg class="wa-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+          <path fill="#ffffff" d="M20.52 3.48A11.95 11.95 0 0 0 12.01.01a11.98 11.98 0 0 0-10.05 17.95L.01 24l5.07-1.32A11.98 11.98 0 0 0 12.01 24c6.63 0 12-5.37 12-12 0-3.21-1.25-6.21-3.49-8.52zM12.01 21.5a9.45 9.45 0 0 1-5.09-1.5l-.36-.22-3.02.79.8-2.95-.24-.38A9.5 9.5 0 1 1 21.51 12 9.45 9.45 0 0 1 12.01 21.5zM17.12 13.97c-.28-.14-1.64-.81-1.9-.9-.26-.09-.45-.14-.64.14s-.73.9-.9 1.09c-.16.19-.33.21-.61.07-.28-.14-1.17-.43-2.23-1.36-.82-.73-1.37-1.63-1.53-1.9-.16-.28-.02-.43.13-.57.13-.13.28-.33.42-.5.14-.17.19-.28.28-.47.09-.19.05-.36-.02-.5-.07-.14-.64-1.55-.87-2.13-.23-.56-.46-.49-.63-.5-.16-.01-.35-.01-.54-.01s-.5.07-.76.36c-.26.29-1 1-1 2.43s1.03 2.82 1.17 3.02c.14.19 2.02 3.08 4.9 4.31 2.88 1.23 2.88.82 3.4.77.52-.05 1.64-.67 1.87-1.32.23-.65.23-1.2.16-1.32-.07-.12-.26-.19-.54-.33z"/>
+        </svg>
+        Join WhatsApp Group
+      </a>
+
+      <section class="timer-section" aria-live="polite" aria-atomic="true">
+        <h2 style="margin:.35rem 0 .6rem;font-size:1rem">Offer Ends In:</h2>
+        <div id="countdown" class="countdown-timer" role="timer" aria-label="Countdown timer">
+          <div class="countdown-col">
+            <span id="days">00</span>
+            <div class="label">DAYS</div>
+          </div>
+          <div class="countdown-col">
+            <span id="hours">00</span>
+            <div class="label">HOURS</div>
+          </div>
+          <div class="countdown-col">
+            <span id="minutes">01</span>
+            <div class="label">MINUTES</div>
+          </div>
+          <div class="countdown-col">
+            <span id="seconds">57</span>
+            <div class="label">SECONDS</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Powered by MONEY HUB</footer>
+  </div>
+
+  <!-- Expired overlay -->
+  <div id="expiredOverlay" class="expired-overlay" role="dialog" aria-modal="true">
+    <div class="expired-card">
+      <h3>Offer Expired</h3>
+      <p>Sorry — ye offer ab uplabdh nahin hai.</p>
+      <a id="expiredBtn" class="btn-secondary" href="#" target="_blank" rel="noopener noreferrer">Visit</a>
     </div>
-
   </div>
 
-  <!-- FOOTER -->
-  <div class="footer">
-    Website Created By 
-    <a href="https://t.me/+ZjWKewkf8T1lODU1" target="_blank">@theayushads</a>
-  </div>
+  <script>
+  /*******************************************************
+   * CONFIG
+   *******************************************************/
+  const GROUP_INVITE = "https://chat.whatsapp.com/Kc0HdRTmJSXALxoJOzsnbD?mode=hq1tcla";
+  const REDIRECT_URL = "https://your-expired-offer-link.com";
+  const OPEN_DELAY_MS = 500;
+  const TIMER_STORAGE_KEY = 'moneyhub_timer_expiry_v1';
 
-</div>
+  /* helper to read URL param */
+  function urlParam(name) {
+    const p = new URLSearchParams(window.location.search);
+    return p.get(name);
+  }
 
+  function safeFbqTrack(name, data) {
+    try {
+      if (window.fbq) { fbq('track', name, data || {}); }
+    } catch (err) { console.warn('fbq error', err); }
+  }
+
+  /*******************************************************
+   * COUNTDOWN (FIXED: reset if expired OR if ?reset_timer=1)
+   *
+   * Logic:
+   * - If localStorage has expiry and it's in future => use it
+   * - If expiry missing OR expiry is past OR URL param reset_timer=1 => set new expiry = now + preset
+   *******************************************************/
+  (function initCountdown(){
+    const landing = document.getElementById('landing');
+    const preset = parseInt(landing.getAttribute('data-duration-seconds') || '117', 10); // default 117s
+    const now = Date.now();
+    const forceReset = urlParam('reset_timer') === '1';
+
+    let expiryRaw = localStorage.getItem(TIMER_STORAGE_KEY);
+    let expiry = expiryRaw ? parseInt(expiryRaw, 10) : null;
+
+    // FIX: if expiry not set OR expiry is in past OR forceReset => create a fresh expiry
+    if (!expiry || expiry <= now || forceReset) {
+      expiry = now + preset * 1000;
+      try { localStorage.setItem(TIMER_STORAGE_KEY, String(expiry)); } catch(e){ console.warn('ls set failed', e); }
+    }
+    // else keep the existing future expiry
+
+    const daysEl = document.getElementById('days');
+    const hoursEl = document.getElementById('hours');
+    const minutesEl = document.getElementById('minutes');
+    const secondsEl = document.getElementById('seconds');
+    const overlay = document.getElementById('expiredOverlay');
+    const expiredBtn = document.getElementById('expiredBtn');
+    expiredBtn.href = REDIRECT_URL;
+
+    function update() {
+      const diff = Math.max(0, expiry - Date.now());
+      if (diff <= 0) {
+        daysEl.textContent = '00';
+        hoursEl.textContent = '00';
+        minutesEl.textContent = '00';
+        secondsEl.textContent = '00';
+        overlay.classList.add('show');
+        clearInterval(interval);
+        return;
+      }
+      const totalSeconds = Math.floor(diff / 1000);
+      const days = Math.floor(totalSeconds / (3600*24));
+      const hours = Math.floor((totalSeconds % (3600 * 24)) / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = Math.floor(totalSeconds % 60);
+
+      daysEl.textContent = String(days).padStart(2,'0');
+      hoursEl.textContent = String(hours).padStart(2,'0');
+      minutesEl.textContent = String(minutes).padStart(2,'0');
+      secondsEl.textContent = String(seconds).padStart(2,'0');
+    }
+
+    update();
+    const interval = setInterval(update, 1000);
+  })();
+
+  /*******************************************************
+   * WhatsApp binding
+   *******************************************************/
+  (function bindWhatsAppButton(){
+    const btn = document.getElementById('whatsappBtn');
+    if (!btn) return;
+    btn.href = GROUP_INVITE;
+
+    function openInvite() {
+      safeFbqTrack('Contact');
+      safeFbqTrack('WhatsAppButtonClick', { invite: GROUP_INVITE });
+      setTimeout(() => {
+        try { window.open(GROUP_INVITE, '_blank', 'noopener'); }
+        catch (err) { window.location.href = GROUP_INVITE; }
+      }, OPEN_DELAY_MS);
+    }
+
+    const newBtn = btn.cloneNode(true);
+    btn.parentNode.replaceChild(newBtn, btn);
+    newBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      openInvite();
+    }, { passive: false });
+  })();
+
+  /*******************************************************
+   * expired overlay "Visit" clears timer so next load is fresh
+   *******************************************************/
+  (function expiredClear(){
+    const expiredBtn = document.getElementById('expiredBtn');
+    expiredBtn.addEventListener('click', function () {
+      try { localStorage.removeItem(TIMER_STORAGE_KEY); } catch(e){}
+    });
+  })();
+  </script>
 </body>
 </html>
